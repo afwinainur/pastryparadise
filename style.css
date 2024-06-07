@@ -1,0 +1,51 @@
+@font-face {
+    font-family: fontJudulToko;
+    src: url(font/battipaglia/Battipaglia.ttf);
+}
+@font-face {
+    font-family: font2;
+    src: url(font/Noelty\ DEMO.ttf);
+}
+
+#judulToko {
+    font-family: fontJudulToko;
+    font-size: 30px;
+}
+.form-control-dark {
+    border-color: var(--bs-gray);
+}
+
+.form-control-dark:focus {
+    border-color: #fff;
+    box-shadow: 0 0 0 .25rem rgba(255, 255, 255, .25);
+}
+
+.text-small {
+    font-size: 85%;
+}
+
+.dropdown-toggle:not(:focus) {
+    outline: 0;
+}
+
+#header {
+	width: 100%;
+    position: fixed;
+    z-index: 9999;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: 25px;
+    margin-top: 50px;
+    transform: translate(-50%, -50%);
+    font-size: 50pt;
+    text-wrap: nowrap;
+    font-family: font2;
+}
+hr.new5 {
+    border: 5px solid green;
+    border-radius: 5px;
+    width: 50%;
+}
